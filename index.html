@@ -3,15 +3,16 @@
 
 <head>
     <meta charset="UTF-8"/>
+    <title>npm Clone</title>
 </head>
 
 <body>
     <header>
-        <div>
-                <div>
-                    <img class="blackHeart" src="images/black-heart.png" alt="black heart" />
-                    <span> Nifty Penguin Magic </span>
-                </div>
+        <div class="top-header">
+            <div class="brand">
+                <img class="black-heart" src="images/black-heart.png" alt="black heart" />
+                <span  class="brand-name"> Nifty Penguin Magic </span>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#"> npm Enterprise </a></li>
@@ -23,84 +24,71 @@
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="search-bar">
             <img class="logo" src="images/npm-logo.png" alt="logo" />
-            <img class="magnifying-glass" src="images/magnifying-glass.png" alt="magnifying-glass" />
             <form action="/some-url" method="post">
+                <img class="magnifying-glass" src="images/magnifying-glass.png" alt="magnifying-glass" />
                 <input type="text" id="search" placeholder="Search packages">
-                <button id="buttonSearch">Search </button>
+                <button id="button-search">Search </button>
             </form>
-            <a href="#">Join</a>
-            <a href="#">Log in</a>
+            <a class="btn-join" href="#">Join</a>
+            <a class="btn-login" href="#">Log in</a>
         </div>
     </header>
 
     <!--section1-->
-    <section id="section1">
-        <heading id="headerSection1">
-            <h1>Build amazing things</h1>
-        </heading>
-        <article id="articleSection1">
-            <p>Essential JavaScript development tools that help you go to market faster and build powerful applications using
-            modern open source code.</p>
+    <section class="section1">
+        <h1 class="header-section1">Build amazing things</h1>
+        <article id="article-section1">
+            <p>Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code.</p>
         </article>
-        <div>
-            <a href="#" id="buttonSeePlans">See plans</a>
-            <a href="#">Join for free</a>
+        <div class="section1-buttons">
+            <a href="#" class="button-see-plans">See plans</a>
+            <a href="#" class="button-join-free">Join for free</a>
         </div>
     </section>
 
 
     <!--section2-->
-    <section>
-        <img class="imagemInSection2" src="images/triangle-hexagon.svg" alt="triangle hexagon"/>
-        <heading id="headerSection2">
-            <h2>Bring the best of open source to your company</h2>
-        </heading>
-        <article id="articleSection2">
+    <section class="section2">
+        <img class="imagem-section2" src="images/triangle-hexagon.svg" alt="triangle hexagon"/>
+        <h2 id="header-section2">Bring the best of open source to your company</h2>
+        <article class="article-section2">
             <p>npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it. Create an Org and get more out of the tools your team already knows and loves.</p>
         </article>
     </section>
 
 
     <!--section3-->
-    <section>
+    <section class="section3">
         <!--area1-->
-        <div>
-            <img class="imagemInSection3" src="images/zero-configuration.svg" alt="zero configuration"/>
-            <heading class="headerSection3">
-                <h3>Zero configuration</h3>
-            </heading>
-            <p class="articleSection3">Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage. </p>
+        <div class="section3-area">
+            <img class="imagem-section3-area" src="images/zero-configuration.svg" alt="zero configuration"/>
+            <h3 class="header-Section3">Zero configuration</h3>
+            <p class="article-section3">Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage. </p>
         </div>
 
         <!--area2-->
-        <div>
-            <img class="imagemInSection3" src="images/team-management.svg" alt="team management"/>
-            <heading class="headerSection3">
-                <h3>Team management</h3>
-            </heading>
-            <p class="articleSection3">Control who has access to what modules within your team namespace using straightforward team management capabilities. </p>
+            <div class="section3-area">
+            <img class="imagem-section3-area" src="images/team-management.svg" alt="team management"/>
+            <h3 class="header-Section3">Team management</h3>
+            <p class="article-section3">Control who has access to what modules within your team namespace using straightforward team management capabilities. </p>
         </div>
 
         <!--area3-->
-        <div>
-            <img class="imagemInSection3" src="images/familiar-features.svg" alt="familiar features"/>
-            <heading class="headerSection3">
-                <h3>Familiar features</h3>
-            </heading>
-            <p class="articleSection3">npm Orgs has 100% parity with all the public npm registry features your developers already use. </p>
+        <div class="section3-area">
+            <img class="imagem-section3-area" src="images/familiar-features.svg" alt="familiar features"/>
+            <h3 class="header-Section3">Familiar features</h3>
+            <p class="article-section3">npm Orgs has 100% parity with all the public npm registry features your developers already use. </p>
         </div>
 
         <!--area4-->
-        <div>
-            <img class="imagemInSection3" src="images/npm-audit.svg" alt="audit"/>
-            <heading class="headerSection3">
-                <h3>npm audit</h3>
-            </heading>
-            <p class="articleSection3">Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer. </p>
+        <div class="section3-area">
+            <img class="imagem-section3-area" src="images/npm-audit.svg" alt="audit"/>
+            <h3 class="header-Section3">npm audit</h3>
+            <p class="article-section3">Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer. </p>
         </div>
-        <a href="#">Create an Org</a>
+        <a href="#" class="button-create-org">Create an Org</a>
     </section>
 
 
